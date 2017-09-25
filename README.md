@@ -5,8 +5,9 @@
 ## 用到哪些技术和库
 
 **前端**  
-vue + vue-router + axios + vue-infinite-loading(无限下拉滚动组件) + swiper(轮播图组件)
-**后端**
+vue-cli + vue + vue-router + axios + vue-infinite-loading(无限下拉滚动组件) + swiper(轮播图组件)  
+
+**后端**  
 express + cheerio + superagent
 
 ## 安装运行
@@ -17,7 +18,7 @@ cd vue-58ershouche
 npm install || yarn install
 
 cd api
-node server.js 把后端抓取的服务跑起来
+node server.js 把后端抓取数据的服务跑起来
 
 cd..  返回
 npm run dev
